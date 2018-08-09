@@ -36,7 +36,7 @@ body{
 .main-header__list-part-a{
   color: #fff;
   text-decoration: none;
-  padding: 80px 45px;
+  margin: 80px 45px;
   display: block;
 
   &:hover{
@@ -73,7 +73,8 @@ body{
   margin-top: 40px;
 
   &:hover{
-    background: #eaeaea;
+    background-color: #eaeaea;
+    transition: background-color .3s;
   }
 }
 
@@ -193,7 +194,8 @@ body{
   font-size: 15px;
   margin-top: 50px;
   &:hover{
-    background: #eaeaea;
+    background-color: #eaeaea;
+    transition: background-color .3s;
   }
 }
 
@@ -225,6 +227,7 @@ body{
   border-radius: 5px;
   background: #f1f1f1 url("../images/icon-user.png") no-repeat -1px 0;
   height: 30px;
+  outline: none;
 }
 
 .email{
@@ -238,6 +241,7 @@ body{
   background: #f1f1f1 url("../images/icon-email.png") no-repeat -1px 0;
   height: 30px;
   margin-left: 13px;
+  outline: none;
 }
 
 .message{
@@ -250,6 +254,7 @@ body{
   padding: 15px 60px;
   background: #f1f1f1 url("../images/icon-message.png") no-repeat;
   max-width: 457px;
+  outline: none;
 }
 
 .main-content__contacts-button{
@@ -263,6 +268,9 @@ body{
   padding: 10px 254px;
   background: #48bf72;
   border-radius: 5px;
+  &:hover{
+    background: green;
+  }
 }
 
 .main-footer{
@@ -304,7 +312,6 @@ body{
 .main-footer__icons-be{
   margin-top: 75px;
 }
-
 
 
 
